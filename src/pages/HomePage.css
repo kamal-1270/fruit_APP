@@ -1,0 +1,77 @@
+.homepage-container {
+  text-align: center;
+  background: linear-gradient(to bottom, #a11376, #169cae); 
+  border-radius: 4vh;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin: auto;
+
+}
+.img1{
+  margin-left: 8px;
+}
+.p1{
+  display: block;
+  color: white;
+  
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  text-decoration:none;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius:4vh;
+  text-align: center;
+  transition: background 0.3s;
+  box-sizing:content-box;
+}
+.homepage-container{
+  margin-top:0px;
+}
+.service-card:hover {
+  background: #ddd;
+}
+
+@media (max-width: 600px) {
+  .service-card {
+    max-width: 70%;
+    font-size: 14px;
+  }
+
+  .homepage-container {
+    padding: 10px;
+    font-size: 16px;
+    padding-top: 60px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .homepage-container {
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .service-card {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 901px) {
+  .homepage-container {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .service-card {
+    max-width: 30%;
+  }
+}

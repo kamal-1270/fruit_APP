@@ -1,0 +1,59 @@
+.faqpage-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 40px;
+  background: linear-gradient(to bottom, #a1138c81, #16aea668); 
+
+}
+.btnEdit{
+  height: fit-content;
+  width:fit-content;
+  margin-left: 10px;
+}
+.btnDelete{
+  height: fit-content;
+  width: fit-content;
+  background-color: red;
+  margin-left: 10px;
+
+}
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 2vh;
+  margin-left: -50px;
+  margin-right: 300px;
+}
+.faqQues{
+  color: red;
+}
+.faqAns{
+  color: blue;
+  overflow: hidden;
+  display:flex;
+  justify-items: flex-end;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.divQues{
+  background: linear-gradient(to bottom, #dcd7db81, #16aea668); 
+  border-radius: 2vh;
+}
+
+@media (max-width: 768px) {
+  .faqpage-container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .faqpage-container {
+    padding: 5px;
+  }
+}
